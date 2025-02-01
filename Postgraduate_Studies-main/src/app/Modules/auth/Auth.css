@@ -1,0 +1,36 @@
+   .form-container {
+       background-color: #fff;
+       border-radius: 10px;
+
+       padding: 2rem;
+   }
+
+   .form-title {
+       font-weight: bold;
+       color: #000000;
+   }
+
+   .login-btn {
+       background-color: #426AC4;
+       color: #fff;
+   }
+
+   .p-datepicker-trigger{
+    background-color: #426AC4 !important;
+    border: none;
+
+   }
+   .login-btn:hover {
+       background-color: #0F1016;
+       color: #fff;
+   }
+
+   .forgot-password {
+       color: #6c757d;
+       font-size: 0.9rem;
+   }
+
+   .image-container img {
+       max-width: 100%;
+       height: auto;
+   }

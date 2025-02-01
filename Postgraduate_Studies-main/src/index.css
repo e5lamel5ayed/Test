@@ -1,0 +1,153 @@
+body{
+    background-color: #EFEFEF !important;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Lora', serif; /* تعيين خط Lora للعناوين */
+  }
+  body {
+    font-family: 'Roboto', sans-serif; /* تحديد خط Roboto للنصوص */
+  }
+  
+ 
+  /* تخصيص نصوص المحتوى */
+  p {
+    font-family: 'Roboto', sans-serif; /* النصوص العادية بخط Roboto */
+  }
+
+  button {
+    font-family: 'Lora', serif;
+  }
+.p-paginator{
+    direction: ltr;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+    text-align: right;
+}
+.p-sidebar{
+    color: #0F1016 !important;
+}
+/* .p-sidebar-mask{
+    z-index: 99999 !important;
+} */
+
+.indicator-label{
+padding: 0px 25px !important;
+font-size: 18px;
+font-weight: bold;
+border-radius: 1px solid #0F1016;
+}
+.buttonActionButton {
+  
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .buttonActionButton:hover {
+    box-shadow: 5px 5px 10px rgba(15, 10, 59, 0.5);
+        transform: scale(1.05);
+}  
+
+.buttonCancelAction {
+  
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .buttonCancelAction:hover {
+    box-shadow: 5px 5px 10px rgba(15, 10, 59, 0.5);
+        transform: scale(1.05); /* تقليل نسبة التكبير لتكون أقل */
+}  
+label{
+    font-size:18px;
+    color: black !important;
+    font-weight: 500;
+}
+ol,ul{
+  padding-left: 0 !important;
+}
+
+.css-19f6boz-MuiListItem-root {
+  margin-top: 0px;
+  width: 90% !important;
+  border-radius: 48px;
+  margin: 10px auto 10px auto;
+  transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+}
+.css-fmgrq2-MuiButtonBase-root-MuiListItemButton-root{
+  border-radius: 48px !important;
+
+}
+.menu-item.active-item{
+  background-color: #fdfdfe !important;
+  border-radius: 48px;
+}
+.menu-item.active-item .css-rizt0-MuiTypography-root{
+  color: #0F1016 !important;
+}
+.menu-item.active-item .css-1umw9bq-MuiSvgIcon-root{
+  color: #0F1016 !important;
+}
+
+.css-19f6boz-MuiListItem-root:hover {
+  background-color: #fdfdfe !important;
+  color: #0F1016;
+  border-radius: 48px;
+}
+
+.css-rizt0-MuiTypography-root {
+  transition: color 0.3s ease;
+}
+
+.css-19f6boz-MuiListItem-root:hover .css-rizt0-MuiTypography-root {
+  color: #0F1016;
+}
+
+.css-1umw9bq-MuiSvgIcon-root {
+  transition: color 0.2s ease, transform 0.3s ease;
+}
+
+.css-19f6boz-MuiListItem-root:hover .css-1umw9bq-MuiSvgIcon-root {
+  color: #0F1016;
+  transform: scale(1.1);
+}
+
+.css-ouptyr-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #0F1016 !important;
+}
+.css-1w4thhl{
+  background-color: #0F1016 !important;
+}
+
+.css-rizt0-MuiTypography-root {
+  color: white;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+
+.css-fmgrq2-MuiButtonBase-root-MuiListItemButton-root {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.css-1umw9bq-MuiSvgIcon-root {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  height: 60px;
+  width: 30px;
+}
+
+.css-b7dj7n-MuiList-root {
+  color: white;
+}
+
+.css-1ygil4i-MuiToolbar-root {
+  background-color: white !important;
+  margin-top: 5px;
+  opacity: 0.8 !important;
+
+}
+.p-dropdown.p-dropdown-clearable .p-dropdown-label{
+  padding-right: 1.75rem;
+    display: flex;
+    justify-content: end;
+}
